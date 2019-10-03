@@ -1,5 +1,8 @@
 <div> Months : 
     <select> 
        <option *ngFor = "let i of months">{{i}}</option> 
-    </select> 
+    </select>
+    <button (click) = "myClickFunction($event)">
+        Click Me
+    </button> 
  </div> 
