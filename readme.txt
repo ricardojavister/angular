@@ -6,3 +6,8 @@ https://stackblitz.com/angular/apvnyeypnyg
 https://www.javatpoint.com/angular-7-with-bootstrap
 https://www.javatpoint.com/angular-7-with-bootstrap
 https://www.techiediaries.com/angular-course/
+
+
+fixprojects
+npm uninstall angular-cli
+npm install @angular/cli --save-dev
