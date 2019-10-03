@@ -26,6 +26,7 @@ address: localhost
 port: 27017
 
 https://appdividend.com/2018/11/04/angular-7-crud-example-mean-stack-tutorial/
+https://github.com/KrunalLathiya/Angular7CRUDExample
 
 npm install -g nodemon 
 **ghlobally
@@ -33,6 +34,6 @@ npm install -g nodemon
 **run this command just in api folder 
 nodemon server
 
-
+https://www.positronx.io/mean-stack-tutorial-angular-7-crud-bootstrap/
 
 
