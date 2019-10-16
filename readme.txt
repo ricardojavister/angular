@@ -36,4 +36,9 @@ nodemon server
 
 https://www.positronx.io/mean-stack-tutorial-angular-7-crud-bootstrap/
 
+execute this command to create an api project in net 
+dotnet new mvc -o MvcMovie
+
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.0&tabs=visual-studio-code
+
 

@@ -4,7 +4,7 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 import { catchError, tap, map } from 'rxjs/operators';
 import { Todo } from './todo';
 
-const apiUrl = "http://localhost/crud";
+const apiUrl = "http://localhost:8080/Person";
  
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})

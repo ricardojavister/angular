@@ -1,0 +1,14 @@
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\bin\Debug\netcoreapp2.1\crud-api.deps.json
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\bin\Debug\netcoreapp2.1\crud-api.runtimeconfig.json
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\bin\Debug\netcoreapp2.1\crud-api.runtimeconfig.dev.json
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\bin\Debug\netcoreapp2.1\crud-api.dll
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\bin\Debug\netcoreapp2.1\crud-api.pdb
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.csprojAssemblyReference.cache
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.csproj.CoreCompileInputs.cache
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.RazorAssemblyInfo.cache
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.RazorAssemblyInfo.cs
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.AssemblyInfoInputs.cache
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.AssemblyInfo.cs
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.RazorTargetAssemblyInfo.cache
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.dll
+C:\Users\rtorres033\Ricardo\PProjects\angular\angular8-crud-api3\crud-api\crud-api\obj\Debug\netcoreapp2.1\crud-api.pdb
