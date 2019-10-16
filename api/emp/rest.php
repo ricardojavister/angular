@@ -1,6 +1,13 @@
 <?php
-class rest()
+class rest
 {
+	var $empTable = "emp";
+	var $dbConnect ="";
+
+	function __construct() {
+        $this->dbConnect = mysqli_connect("localhost", "root", "root", "company");
+    }
+
 	function insertEmployee($empData){ 		
 		$empName=$empData["empName"];
 		$empAge=$empData["empAge"];
@@ -34,6 +41,19 @@ class rest()
 			SELECT id, name, skills, address, age 
 			FROM ".$this->empTable." $sqlQuery
 			ORDER BY id DESC";	
+		$resultData = mysqli_query($this->dbConnect, $empQuery);
+		$empData = array();
+		while( $empRecord = mysqli_fetch_assoc($resultData) ) {
+			$empData[] = $empRecord;
+		}
+		header('Content-Type: application/json');
+		echo json_encode($empData);	
+	}
+
+	public function getAll() {		
+		$empQuery = "
+			SELECT id, name, skills, address, age 
+			FROM ".$this->empTable." ORDER BY id DESC";	
 		$resultData = mysqli_query($this->dbConnect, $empQuery);
 		$empData = array();
 		while( $empRecord = mysqli_fetch_assoc($resultData) ) {

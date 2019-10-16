@@ -1,6 +1,6 @@
 <?php
 $requestMethod = $_SERVER["REQUEST_METHOD"];
-include('../class/Rest.php');
+include('rest.php');
 $api = new Rest();
 switch($requestMethod) {	
 	case 'POST':
