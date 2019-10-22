@@ -41,4 +41,8 @@ dotnet new mvc -o MvcMovie
 
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.0&tabs=visual-studio-code
 
+https://learning.oreilly.com/learning-paths/learning-path-a/9781838645236/
+
+https://learning.oreilly.com/learning-paths/learning-path-mean/9781838557478/
+
 

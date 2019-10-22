@@ -5,8 +5,8 @@
             <div class="card-body">
               <form [formGroup]="todoForm" (ngSubmit)="addTodo()">
                 <div class="form-group">
-                  <label class="col-md-4">Title </label>
-                  <input type="text" class="form-control" formControlName="title" />
+                  <label class="col-md-4">Name </label>
+                  <input type="text" class="form-control" formControlName="name" />
                 </div>
                 <div class="form-group">
                   <button type="submit" class="btn btn-primary col-md-4" [disabled]="todoForm.invalid">Add</button>

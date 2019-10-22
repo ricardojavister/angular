@@ -4,10 +4,10 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 import { catchError, tap, map } from 'rxjs/operators';
 import { Todo } from './todo';
 
-const apiUrl = "http://localhost:8080/Person";
- 
+const apiUrl = "http://localhost/api/emp";
+
 const httpOptions = {
-  headers: new HttpHeaders({'Content-Type': 'application/json'})
+  headers: new HttpHeaders({'Access-Control-Allow-Origin':'*','Content-Type': 'application/json'})
 };
 
 @Injectable({

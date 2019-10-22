@@ -36,7 +36,7 @@ export class TodoEditComponent implements OnInit {
       .subscribe(data => {
         this.id = data.id;
         this.todoForm.setValue({
-          title: data.title
+          title: data.name
         });
         console.log(data);
       });
