@@ -45,4 +45,16 @@ https://learning.oreilly.com/learning-paths/learning-path-a/9781838645236/
 
 https://learning.oreilly.com/learning-paths/learning-path-mean/9781838557478/
 
+****
+
+npm install -g @angular/cli@7.3.2
+
+>ng new angular-news --routing --style=scss --skip-install --inline-style --inline-template --dry-run
+>cd angular-news
+npm install
+ng s -o
+
+
+
+
 
