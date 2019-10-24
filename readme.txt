@@ -45,6 +45,9 @@ https://learning.oreilly.com/learning-paths/learning-path-a/9781838645236/
 
 https://learning.oreilly.com/learning-paths/learning-path-mean/9781838557478/
 
+install
+https://marketplace.visualstudio.com/items?itemName=danwahlin.angular2-snippets
+
 ****
 
 npm install -g @angular/cli@7.3.2
