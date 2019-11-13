@@ -8,9 +8,9 @@ import { Post } from './post';
   providedIn: 'root'
 })
 export class PostService {
-  url = 'http://127.0.0.1:5500/archive';
+  url = 'http://127.0.0.1:5500/data.json';
   constructor(private http: HttpClient) { }
   getAllPost(): Observable<Post[]> {  
-    return this.http.get<Post[]>(this.url + '/data.json');  
+    return this.http.get<Post[]>(this.url);  
   }  
 }

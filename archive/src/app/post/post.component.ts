@@ -11,17 +11,15 @@ import { Post } from '../post';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-  allPosts: Observable<Post[]>;
+  allPosts: Post[];
   constructor(private postService: PostService ) { }
 
-  ngOnInit() {
-    this.loadAllPosts();
+  async ngOnInit() {
+    this.allPosts = await this.loadAllPosts();
   }
 
-  loadAllPosts() {  
-    this.allPosts = this.postService.getAllPost();
-    console.log('yues');
-    console.log(this.allPosts);  
+  async loadAllPosts() {  
+    return this.postService.getAllPost().toPromise();  
   }  
 
 }
