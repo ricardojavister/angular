@@ -3,3 +3,17 @@
     {{post.title}}
   </li>
 </ul>
+
+<div *ngIf="allPosts!=null; else espera">
+  <table border="1">
+    <tr>
+      <td>Codigo</td><td>Descripcion</td><td>Precio</td>
+    </tr>
+    <tr *ngFor="let post of allPosts">
+      <td>{{post.title}}</td>
+      <td>{{post.content}}</td>
+      <td>{{post.imageurl}}</td>
+    </tr>
+  </table>
+</div>
+<ng-template #espera>Esperando datos...</ng-template>

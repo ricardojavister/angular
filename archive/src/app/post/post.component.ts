@@ -12,14 +12,21 @@ import { Post } from '../post';
 })
 export class PostComponent implements OnInit {
   allPosts: Post[];
+  private Posts = null;
+
   constructor(private postService: PostService ) { }
 
   async ngOnInit() {
     this.allPosts = await this.loadAllPosts();
+    this.Posts  =  await this.loadAllPosts2();
   }
 
   async loadAllPosts() {  
     return this.postService.getAllPost().toPromise();  
-  }  
+  }
+   
+  async loadAllPosts2() {  
+    return this.postService.getAllPost2().toPromise();  
+  }
 
 }
